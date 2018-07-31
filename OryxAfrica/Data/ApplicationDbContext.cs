@@ -14,7 +14,6 @@ namespace OryxAfrica.Data
             : base(options)
         {
         }
-
         public DbSet<Picture> Pictures { get; set; }
         public DbSet<Client> Clients { get; set; }
         public DbSet<Solution> Solutions { get; set; }

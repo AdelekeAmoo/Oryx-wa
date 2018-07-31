@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Clients\" />
     <Folder Include="wwwroot\lib\materialize\dist\fonts\" />
   </ItemGroup>
 

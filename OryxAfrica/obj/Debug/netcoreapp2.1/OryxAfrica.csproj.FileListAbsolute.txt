@@ -34,3 +34,39 @@ C:\OryxWeb\OryxAfrica\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImport
 C:\OryxWeb\OryxAfrica\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
 C:\OryxWeb\OryxAfrica\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
 C:\OryxWeb\OryxAfrica\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\bin\Debug\netcoreapp2.1\OryxAfrica.deps.json
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\bin\Debug\netcoreapp2.1\OryxAfrica.runtimeconfig.json
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\bin\Debug\netcoreapp2.1\OryxAfrica.runtimeconfig.dev.json
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\bin\Debug\netcoreapp2.1\OryxAfrica.dll
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\bin\Debug\netcoreapp2.1\OryxAfrica.pdb
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\bin\Debug\netcoreapp2.1\OryxAfrica.Views.dll
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\bin\Debug\netcoreapp2.1\OryxAfrica.Views.pdb
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.csproj.CoreCompileInputs.cache
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.RazorAssemblyInfo.cache
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.RazorAssemblyInfo.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.AssemblyInfoInputs.cache
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.AssemblyInfo.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.TagHelpers.input.cache
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.TagHelpers.output.cache
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.RazorCoreGenerate.cache
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Home\Career.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Home\Client.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Home\Gallery.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Home\Partner.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Home\Solution.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Home\Support.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.RazorTargetAssemblyInfo.cache
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.RazorTargetAssemblyInfo.cs
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.Views.pdb
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.dll
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.pdb
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.csproj.CopyComplete
+C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.csprojAssemblyReference.cache
