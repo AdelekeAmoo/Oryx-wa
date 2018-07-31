@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using OryxAfrica.Models;
+using OryxWeb.Models;
 
-namespace OryxAfrica.Data
+namespace OryxAfrica.Models
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -14,10 +14,10 @@ namespace OryxAfrica.Data
             : base(options)
         {
         }
-        public DbSet<Picture> Pictures { get; set; }
+        public DbSet<OryxWeb.Models.Part> Part { get; set; }
         public DbSet<Client> Clients { get; set; }
-        public DbSet<Solution> Solutions { get; set; }
         public DbSet<Career> Careers { get; set; }
-        public DbSet<Partner> Partners { get; set; }
+        public DbSet<Solution> Solutions { get; set; }
     }
 }
+

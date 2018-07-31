@@ -5,8 +5,28 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Clients\" />
+    <Folder Include="bin\" />
     <Folder Include="wwwroot\lib\materialize\dist\fonts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Areas\Identity\Pages\_ViewStart.cshtml" />
+    <None Include="Views\Home\About.cshtml" />
+    <None Include="Views\Home\Career.cshtml" />
+    <None Include="Views\Home\Client.cshtml" />
+    <None Include="Views\Home\Contact.cshtml" />
+    <None Include="Views\Home\Gallery.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Partner.cshtml" />
+    <None Include="Views\Home\Solution.cshtml" />
+    <None Include="Views\Home\Support.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_LoginPartial.cshtml" />
+    <None Include="Views\_ViewImports.cshtml" />
+    <None Include="Views\_ViewStart.cshtml" />
+    <None Include="wwwroot\js\materialize.js" />
+    <None Include="wwwroot\js\materialize.min.js" />
+    <None Include="wwwroot\lib\materialize\dist\js\materialize.min.js" />
   </ItemGroup>
 
   <ItemGroup>
