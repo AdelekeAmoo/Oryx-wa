@@ -7,7 +7,7 @@ namespace OryxAfrica.Models
 {
     public class Partner
     {
-        public Partner() { }
+    
 
         public int PartnerID { get; set; }
         public string Name { get; set; }

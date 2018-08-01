@@ -1,0 +1,42 @@
+﻿@model OryxAfrica.Models.Client
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Client</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Image)
+        </dt>
+        <dd>
+            @{ var base64 = Convert.ToBase64String(Model.Image);
+                var imagesrc = string.Format("data:image/gif;base64,{0}", base64);
+            }
+            <img src="@imagesrc" style="max-width:100px; max-height:100px" />
+        </dd>
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClientName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ClientName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ClientDesc)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ClientDesc)
+        </dd>
+
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ClientId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

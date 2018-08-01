@@ -6,26 +6,25 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using OryxAfrica.Models;
-using OryxWeb.Models;
 
-namespace OryxWeb.Controllers
+namespace OryxAfrica.Controllers
 {
-    public class PartsController : Controller
+    public class PartnersController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public PartsController(ApplicationDbContext context)
+        public PartnersController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: Parts
+        // GET: Partners
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Part.ToListAsync());
+            return View(await _context.Partner.ToListAsync());
         }
 
-        // GET: Parts/Details/5
+        // GET: Partners/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -33,39 +32,39 @@ namespace OryxWeb.Controllers
                 return NotFound();
             }
 
-            var part = await _context.Part
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (part == null)
+            var partner = await _context.Partner
+                .FirstOrDefaultAsync(m => m.PartnerID == id);
+            if (partner == null)
             {
                 return NotFound();
             }
 
-            return View(part);
+            return View(partner);
         }
 
-        // GET: Parts/Create
+        // GET: Partners/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Parts/Create
+        // POST: Partners/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name")] Part part)
+        public async Task<IActionResult> Create([Bind("PartnerID,Name,Image,ImageSourceFileName,ImageContentType,Details")] Partner partner)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(part);
+                _context.Add(partner);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(part);
+            return View(partner);
         }
 
-        // GET: Parts/Edit/5
+        // GET: Partners/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -73,22 +72,22 @@ namespace OryxWeb.Controllers
                 return NotFound();
             }
 
-            var part = await _context.Part.FindAsync(id);
-            if (part == null)
+            var partner = await _context.Partner.FindAsync(id);
+            if (partner == null)
             {
                 return NotFound();
             }
-            return View(part);
+            return View(partner);
         }
 
-        // POST: Parts/Edit/5
+        // POST: Partners/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Part part)
+        public async Task<IActionResult> Edit(int id, [Bind("PartnerID,Name,Image,ImageSourceFileName,ImageContentType,Details")] Partner partner)
         {
-            if (id != part.Id)
+            if (id != partner.PartnerID)
             {
                 return NotFound();
             }
@@ -97,12 +96,12 @@ namespace OryxWeb.Controllers
             {
                 try
                 {
-                    _context.Update(part);
+                    _context.Update(partner);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!PartExists(part.Id))
+                    if (!PartnerExists(partner.PartnerID))
                     {
                         return NotFound();
                     }
@@ -113,10 +112,10 @@ namespace OryxWeb.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(part);
+            return View(partner);
         }
 
-        // GET: Parts/Delete/5
+        // GET: Partners/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -124,30 +123,30 @@ namespace OryxWeb.Controllers
                 return NotFound();
             }
 
-            var part = await _context.Part
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (part == null)
+            var partner = await _context.Partner
+                .FirstOrDefaultAsync(m => m.PartnerID == id);
+            if (partner == null)
             {
                 return NotFound();
             }
 
-            return View(part);
+            return View(partner);
         }
 
-        // POST: Parts/Delete/5
+        // POST: Partners/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var part = await _context.Part.FindAsync(id);
-            _context.Part.Remove(part);
+            var partner = await _context.Partner.FindAsync(id);
+            _context.Partner.Remove(partner);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool PartExists(int id)
+        private bool PartnerExists(int id)
         {
-            return _context.Part.Any(e => e.Id == id);
+            return _context.Partner.Any(e => e.PartnerID == id);
         }
     }
 }
