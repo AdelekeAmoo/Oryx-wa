@@ -117,3 +117,4 @@ C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Partners\Details.g.cshtml.cs
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Partners\Edit.g.cshtml.cs
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Partners\Index.g.cshtml.cs
+C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.csprojAssemblyReference.cache

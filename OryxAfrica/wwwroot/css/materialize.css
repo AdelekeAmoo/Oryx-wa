@@ -4,11 +4,17 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
-.secwidth{
+/*.divFwidth{
+    max-width: 80%;
+    max-height: 80%;
+    margin: 10px 10px 10px 10px;
+}*/
+
+/*.secwidth{
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 
 .materialize-red {
   background-color: #e51c23 !important;
