@@ -53,18 +53,6 @@ C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Solutions\Details.g.cshtml.cs
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Solutions\Edit.g.cshtml.cs
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Solutions\Index.g.cshtml.cs
-<<<<<<< HEAD
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Create.g.cshtml.cs
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Delete.g.cshtml.cs
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Details.g.cshtml.cs
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Edit.g.cshtml.cs
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Index.g.cshtml.cs
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Partners\Create.g.cshtml.cs
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Partners\Delete.g.cshtml.cs
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Partners\Details.g.cshtml.cs
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Partners\Edit.g.cshtml.cs
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Partners\Index.g.cshtml.cs
-=======
 C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\bin\Debug\netcoreapp2.1\OryxAfrica.deps.json
 C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\bin\Debug\netcoreapp2.1\OryxAfrica.runtimeconfig.json
 C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\bin\Debug\netcoreapp2.1\OryxAfrica.runtimeconfig.dev.json
@@ -130,4 +118,3 @@ C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2
 C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Details.g.cshtml.cs
 C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Edit.g.cshtml.cs
 C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Index.g.cshtml.cs
->>>>>>> 456ac9603ae0d11ffb8645b90605c6e2d577cf5c
