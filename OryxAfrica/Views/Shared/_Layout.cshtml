@@ -1,12 +1,11 @@
-﻿<!DOCTYPE html>
+﻿@using System.Security.Claims
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - OryxAfrica</title>
-
-    @*icons links*@
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>@ViewData["Title"] - OryxCore</title>
 
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
@@ -16,185 +15,28 @@
 </head>
 
 <body>
-    <header class="nav">
-        <nav class="purple darken-4">
-            <div class="navbar-fixed">
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Home" class="navbar">HOME</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About" class="navbar">ABOUT US</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Partner" class="navbar">PARTNERS</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Solution" class="navbar">SOLUTIONS</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Clint" class="navbar">CLIENTS</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Support" class="navbar">SUPPORT</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Career" class="navbar">CAREER</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Gallery" class="navbar">GALLERY</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact" class="navbar">CONTACT US</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    @*carousel-item div tag for slides*@
-    <div class="carousel carousel-slider center">
-        <div class="carousel-fixed-item center">
-            <a class="btn waves-effect white grey-text darken-text-2">button</a>
+    <nav>
+        <div class="nav-wrapper fixed">
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">PARTNERS</a></li>
+                <li><a href="#">SOLUTIONS</a></li>
+                <li><a href="#">CLIENTS</a></li>
+                <li><a href="#">SUPPORT</a></li>
+                <li><a href="#">CAREER</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
         </div>
-        <div class="carousel-item red white-text" href="#one!">
-            <h2>First Panel</h2>
-            <p class="white-text">This is your first panel</p>
-        </div>
-        <div class="carousel-item amber white-text" href="#two!">
-            <h2>Second Panel</h2>
-            <p class="white-text">This is your second panel</p>
-        </div>
-        <div class="carousel-item green white-text" href="#three!">
-            <h2>Third Panel</h2>
-            <p class="white-text">This is your third panel</p>
-        </div>
-        <div class="carousel-item blue white-text" href="#four!">
-            <h2>Fourth Panel</h2>
-            <p class="white-text">This is your fourth panel</p>
-        </div>
-    </div>
-
-    <div class="row blue-grey lighten-3">
-        <div class="col l3 m4 s12 center-align">
-            <p><i class="small material-icons">business_center</i></p><p><h5>INNOVATIVE SOLUTION</h5></p>
-            <p>
-                Capital isn't so important in business, Experience isn't so important either.
-                What is important is Ideas. You can get both these things. And we can do this at Oryx.
-            </p>
-        </div>
-
-        <div class="col l3 m4 s12 center-align">
-            <p><i class="small material-icons">publish</i></p><p><h5>ON TIME IMPLEMENTATION</h5></p>
-            <p>
-                A good idea is about ten percent while implementation and hard work 90 percent.
-                That's why we work on perfect timing with our customers.
-            </p>
-        </div>
-
-        <div class="col l3 m4 s12 center-align">
-            <p><i class="material-icons">tonality</i></p><p><h5>READY TO GO</h5></p>
-            <p>
-                Together we will develop a plan, roadmap or blueprint, to help you from where you are today,
-                to where you want to be tomorrow.
-            </p>
-        </div>
-
-        <div class="col l3 m4 s12 center-align">
-            <p><i class="material-icons">thumb_up</i></p><p><h5>EASY TO USE</h5></p>
-            <p>
-                Our Products Are Flexible and Easy To Use.
-            </p>
-        </div>
-
-    </div>
-
+    </nav>
 
     @RenderBody()
     <hr />
 
-
-    @*footer for area html tage*@
-    <footer class="page-footer purple darken-4">
-        <p><h3 class="center-align  white deep-purple-text darken-text-2">REACH US</h3></p>
-
-
-        <div class="container">
-            <div class="row">
-                <div class="col l4 m6 s12 left-align">
-                    <h5 class="white-text">Want to be kept update?</h5>
-                    <p>Subscribe to our newsletter and stay up to date with the latest news and deals!</p>
-                    <form class="col s12">
-                        <div class="row">
-                            <div class="input-field col s12">
-
-                                <input value="Email" id="email" type="email" class="validate">
-                                <label for="email">Email and Your Name</label>
-
-                                @*More about us input name field first name and last name*@
-                                <input value="First Name" id="first_name2" type="text" class="validate">
-
-                                <input value="Last Name" id="first_name2" type="text" class="validate">
-
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-                @*More about oryx html tag*@
-                <div class="col l4 m6 s12 center-align">
-                    <h5 class="white-text">More About Us</h5>
-                    <p class="grey-text text-lighten-4">
-                        “Oryx is a business consultancy firm. Since inception in 2004, Oryx has garnered the
-                        trust of the market leaders and is constantly unlocking world class best practice to
-                        companies. Our unparalleled approach has witnessed success stories from start-ups to
-                        growing and sophisticated ones; wholesale distribution, high-end retail items, and
-                        professional services to complex manufacturing, engineering and construction operations.”
-                    </p>
-                </div>
-
-
-                @*list of the contact for and icons*@
-                <div class="col l4 m6 s12 right-align">
-                    <h5 class="white-text">Contact Information</h5>
-                    <ul>
-                        <li>
-                            <!-- Sizes: tiny: 1rem small: 2remmedium: 4rem large: 6rem-->
-                            <p><i class="small material-icons">home</i>     101B, Ikeja Way, Dolphin Estate,Ikoyi, Lagos.</p>
-                        </li>
-                        <li>
-                            <!-- Sizes: tiny: 1rem small: 2remmedium: 4rem large: 6rem-->
-                            <p><i class="small material-icons">contact_phone</i>    +234-703-180-6379, +234-706-462-0664</p>
-                        </li>
-                        <li>
-                            <!-- Sizes: tiny: 1rem small: 2remmedium: 4rem large: 6rem-->
-                            <p><i class="small material-icons">local_phone</i>      01-463-0603</p>
-                        </li>
-                        <li>
-                            <!-- Sizes: tiny: 1rem small: 2remmedium: 4rem large: 6rem-->
-                            <p><i class="small material-icons">contact_mail</i>     Email : info@oryx-wa.com</p>
-                        </li>
-                    </ul>
-                </div>
-
-
-
-
-            </div>
-        </div>
-        <div class="footer-copyright valign-wrapper">
-            <div class="container center-align">
-                © 2018 Oryx West Africa
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
-        </div>
-    </footer>
-
-
-
-
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript">
-
-
-        //carousel-item js for slide
-        $('.carousel.carousel-slider').carousel({
-            fullWidth: true,
-            indicators: true
-        });
-
-
-        //text field color
-        $(document).ready(function () {
-            M.updateTextFields();
-        });
-
-    </script>
-
     @RenderSection("Scripts", required: false)
 </body>
 </html>

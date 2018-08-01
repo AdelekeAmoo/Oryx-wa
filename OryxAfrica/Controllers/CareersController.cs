@@ -56,6 +56,7 @@ namespace OryxAfrica.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CareerID,Name,Description")] Career career)
         {
+            var hello = _context.Careers;
             if (ModelState.IsValid)
             {
                 _context.Add(career);
