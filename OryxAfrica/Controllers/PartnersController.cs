@@ -114,7 +114,6 @@ namespace OryxAfrica.Controllers
             }
             return View(partner);
         }
-
         // GET: Partners/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {

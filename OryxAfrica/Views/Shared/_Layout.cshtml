@@ -1,14 +1,15 @@
+<<<<<<< HEAD
 ﻿
+=======
+﻿@using System.Security.Claims
+>>>>>>> 456ac9603ae0d11ffb8645b90605c6e2d577cf5c
 
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - OryxAfrica</title>
-
-    @*icons links*@
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>@ViewData["Title"] - OryxCore</title>
 
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
@@ -26,6 +27,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     <header class="nav ">
         <nav class="purple darken-4">
             <div class="navbar-fixed">
@@ -101,110 +103,30 @@
 
     </div>
 
+=======
+    <nav>
+        <div class="nav-wrapper fixed">
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">PARTNERS</a></li>
+                <li><a href="#">SOLUTIONS</a></li>
+                <li><a href="#">CLIENTS</a></li>
+                <li><a href="#">SUPPORT</a></li>
+                <li><a href="#">CAREER</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+>>>>>>> 456ac9603ae0d11ffb8645b90605c6e2d577cf5c
 
     @RenderBody()
     <hr />
 
-
-    @*footer for area html tage*@
-    <footer class="page-footer purple darken-4">
-        <p><h3 class="center-align  white deep-purple-text darken-text-2">REACH US</h3></p>
-
-
-        <div class="container">
-            <div class="row">
-                <div class="col l4 m6 s12 left-align">
-                    <h5 class="white-text">Want to be kept update?</h5>
-                    <p>Subscribe to our newsletter and stay up to date with the latest news and deals!</p>
-                    <form class="col s12">
-                        <div class="row">
-                            <div class="input-field col s12">
-
-                                <input value="Email" id="email" type="email" class="validate">
-                                <label for="email">Email and Your Name</label>
-
-                                @*More about us input name field first name and last name*@
-                                <input value="First Name" id="first_name2" type="text" class="validate">
-
-                                <input value="Last Name" id="first_name2" type="text" class="validate">
-
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-                @*More about oryx html tag*@
-                <div class="col l4 m6 s12 center-align">
-                    <h5 class="white-text">More About Us</h5>
-                    <p class="grey-text text-lighten-4">
-                        “Oryx is a business consultancy firm. Since inception in 2004, Oryx has garnered the
-                        trust of the market leaders and is constantly unlocking world class best practice to
-                        companies. Our unparalleled approach has witnessed success stories from start-ups to
-                        growing and sophisticated ones; wholesale distribution, high-end retail items, and
-                        professional services to complex manufacturing, engineering and construction operations.”
-                    </p>
-                </div>
-
-
-                @*list of the contact for and icons*@
-                <div class="col l4 m6 s12 right-align">
-                    <h5 class="white-text">Contact Information</h5>
-                    <ul>
-                        <li>
-                            <!-- Sizes: tiny: 1rem small: 2remmedium: 4rem large: 6rem-->
-                            <p><i class="small material-icons">home</i>     101B, Ikeja Way, Dolphin Estate,Ikoyi, Lagos.</p>
-                        </li>
-                        <li>
-                            <!-- Sizes: tiny: 1rem small: 2remmedium: 4rem large: 6rem-->
-                            <p><i class="small material-icons">contact_phone</i>    +234-703-180-6379, +234-706-462-0664</p>
-                        </li>
-                        <li>
-                            <!-- Sizes: tiny: 1rem small: 2remmedium: 4rem large: 6rem-->
-                            <p><i class="small material-icons">local_phone</i>      01-463-0603</p>
-                        </li>
-                        <li>
-                            <!-- Sizes: tiny: 1rem small: 2remmedium: 4rem large: 6rem-->
-                            <p><i class="small material-icons">contact_mail</i>     Email : info@oryx-wa.com</p>
-                        </li>
-                    </ul>
-                </div>
-
-
-
-
-            </div>
-        </div>
-        <div class="footer-copyright valign-wrapper">
-            <div class="container center-align">
-                © 2018 Oryx West Africa
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
-        </div>
-    </footer>
-
-
-
-
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript">
-
-
-        //carousel-item js for slide
-        $('.carousel.carousel-slider').carousel({
-            fullWidth: true,
-            indicators: true
-        });
-
-
-        //text field color
-        $(document).ready(function () {
-            M.updateTextFields();
-        });
-
-    </script>
-
     @RenderSection("Scripts", required: false)
 </body>
 </html>

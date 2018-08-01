@@ -66,7 +66,11 @@ using OryxWeb.Models;
             WriteLiteral("\r\n<h2>Index</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(119, 37, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2fa5fe30a2634f129b65aad0d4541de0", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "99a547fcf3b04bef849351a1a34cf89f", async() => {
+>>>>>>> 456ac9603ae0d11ffb8645b90605c6e2d577cf5c
                 BeginContext(142, 10, true);
                 WriteLiteral("Create New");
                 EndContext();
@@ -182,7 +186,11 @@ using OryxWeb.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(1384, 60, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6924c32f76464c85adc95d04075db5d4", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c6526c65bc83412c948a74080535385c", async() => {
+>>>>>>> 456ac9603ae0d11ffb8645b90605c6e2d577cf5c
                 BeginContext(1436, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -217,7 +225,11 @@ using OryxWeb.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1464, 66, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed81ac876e9f418cbbf4dca302ce53b5", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c3666d11d98e40bc8248d4ec35e11f2e", async() => {
+>>>>>>> 456ac9603ae0d11ffb8645b90605c6e2d577cf5c
                 BeginContext(1519, 7, true);
                 WriteLiteral("Details");
                 EndContext();
@@ -252,7 +264,11 @@ using OryxWeb.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1550, 64, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0950c5fede8f4d288e18ecd11f2aafc9", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "18cbcd175fc8411dba0924ea200f2446", async() => {
+>>>>>>> 456ac9603ae0d11ffb8645b90605c6e2d577cf5c
                 BeginContext(1604, 6, true);
                 WriteLiteral("Delete");
                 EndContext();
