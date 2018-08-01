@@ -22,6 +22,36 @@ namespace OryxWeb.Controllers
             return View();
         }
 
+        public IActionResult Partner()
+        {
+            return View();
+        }
+
+        public IActionResult Carrer()
+        {
+            return View();
+        }
+
+        public IActionResult Client()
+        {
+            return View();
+        }
+
+        public IActionResult Gallery()
+        {
+            return View();
+        }
+
+        public IActionResult Solution()
+        {
+            return View();
+        }
+
+        public IActionResult Support()
+        {
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
