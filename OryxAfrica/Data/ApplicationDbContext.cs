@@ -18,15 +18,15 @@ namespace OryxAfrica.Models
         public DbSet<Client> Clients { get; set; }
         public DbSet<Career> Careers { get; set; }
         public DbSet<Solution> Solutions { get; set; }
-<<<<<<< HEAD
-<<<<<<< HEAD
+//<<<<<<< HEAD
+//<<<<<<< HEAD
         public DbSet<Partner> Partner { get; set; }
-=======
-        public DbSet<OryxAfrica.Models.Partner> Partner { get; set; }
->>>>>>> 456ac9603ae0d11ffb8645b90605c6e2d577cf5c
-=======
-        public DbSet<OryxAfrica.Models.Partner> Partner { get; set; }
->>>>>>> 456ac9603ae0d11ffb8645b90605c6e2d577cf5c
+//=======
+//        public DbSet<OryxAfrica.Models.Partner> Partner { get; set; }
+//>>>>>>> 456ac9603ae0d11ffb8645b90605c6e2d577cf5c
+//=======
+        //public DbSet<OryxAfrica.Models.Partner> Partner { get; set; }
+//>>>>>>> 456ac9603ae0d11ffb8645b90605c6e2d577cf5c
     }
 }
 

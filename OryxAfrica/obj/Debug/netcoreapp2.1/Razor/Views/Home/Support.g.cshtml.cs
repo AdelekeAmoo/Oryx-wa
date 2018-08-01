@@ -14,17 +14,17 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #line 1 "C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\Views\_ViewImports.cshtml"
-using OryxWeb;
+using OryxAfrica;
 
 #line default
 #line hidden
 #line 2 "C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\Views\_ViewImports.cshtml"
-using OryxWeb.Models;
+using OryxAfrica.Models;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fa817006ddfef8aaf740850defeeb3386ba6c68a", @"/Views/Home/Support.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7ee72ab1b76bd2a5dc974fd074b4ae104e901930", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7a8e87ded881068a3bffe545d81b052fa0e6a009", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Support : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

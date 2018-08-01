@@ -24,11 +24,6 @@ C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Home\Solution.g.cshtml.cs
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Home\Support.g.cshtml.cs
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Parts\Create.g.cshtml.cs
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Parts\Delete.g.cshtml.cs
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Parts\Details.g.cshtml.cs
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Parts\Edit.g.cshtml.cs
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Parts\Index.g.cshtml.cs
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
@@ -42,7 +37,6 @@ C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.dll
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.pdb
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.csproj.CopyComplete
-C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\OryxAfrica.csprojAssemblyReference.cache
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Careers\Create.g.cshtml.cs
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Careers\Delete.g.cshtml.cs
 C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Careers\Details.g.cshtml.cs
@@ -118,3 +112,13 @@ C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2
 C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Details.g.cshtml.cs
 C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Edit.g.cshtml.cs
 C:\Users\babatunde alo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Index.g.cshtml.cs
+C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Create.g.cshtml.cs
+C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Delete.g.cshtml.cs
+C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Details.g.cshtml.cs
+C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Edit.g.cshtml.cs
+C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Clients\Index.g.cshtml.cs
+C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Partners\Create.g.cshtml.cs
+C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Partners\Delete.g.cshtml.cs
+C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Partners\Details.g.cshtml.cs
+C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Partners\Edit.g.cshtml.cs
+C:\Users\Adeleke.Amoo\Documents\GitHub\Oryx-wa\OryxAfrica\obj\Debug\netcoreapp2.1\Razor\Views\Partners\Index.g.cshtml.cs
