@@ -14548,28 +14548,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\babatunde alo\\.nuget\\packages\\": {},
+    "C:\\Users\\Adeleke.Amoo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\babatunde alo\\Documents\\GitHub\\Oryx-wa\\OryxAfrica\\OryxAfrica.csproj",
+      "projectUniqueName": "C:\\Users\\Adeleke.Amoo\\Documents\\GitHub\\Oryx-wa\\OryxAfrica\\OryxAfrica.csproj",
       "projectName": "OryxAfrica",
-      "projectPath": "C:\\Users\\babatunde alo\\Documents\\GitHub\\Oryx-wa\\OryxAfrica\\OryxAfrica.csproj",
-      "packagesPath": "C:\\Users\\babatunde alo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\babatunde alo\\Documents\\GitHub\\Oryx-wa\\OryxAfrica\\obj\\",
+      "projectPath": "C:\\Users\\Adeleke.Amoo\\Documents\\GitHub\\Oryx-wa\\OryxAfrica\\OryxAfrica.csproj",
+      "packagesPath": "C:\\Users\\Adeleke.Amoo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Adeleke.Amoo\\Documents\\GitHub\\Oryx-wa\\OryxAfrica\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\babatunde alo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Adeleke.Amoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
