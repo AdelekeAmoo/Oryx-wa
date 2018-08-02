@@ -60,7 +60,7 @@ namespace OryxAfrica.Controllers
             if (ModelState.IsValid)
             {
 
-
+                var chk = _context.Clients;
                 try
                 {
 
