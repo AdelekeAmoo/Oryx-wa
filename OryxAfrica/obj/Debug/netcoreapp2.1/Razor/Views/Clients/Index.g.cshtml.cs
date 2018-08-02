@@ -66,7 +66,7 @@ using OryxAfrica.Models;
             WriteLiteral("\r\n<h2>Index</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(118, 37, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5f8d0dfd0c17427d9b99ae9706036015", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0345c888ee544f2eab5fb33271f2880e", async() => {
                 BeginContext(141, 10, true);
                 WriteLiteral("Create New");
                 EndContext();
@@ -142,7 +142,7 @@ using OryxAfrica.Models;
             WriteLiteral("\r\n            </td>\r\n\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(971, 59, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "25807c73f56449da8d679ab90bc908e3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8603ebd86ccc44caa228080b10ff74dc", async() => {
                 BeginContext(1022, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -177,7 +177,7 @@ using OryxAfrica.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1050, 65, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "02d643f56e4b40d882689f34b26f3978", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c4c3040f54094c638c940cba4905917f", async() => {
                 BeginContext(1104, 7, true);
                 WriteLiteral("Details");
                 EndContext();
@@ -212,7 +212,7 @@ using OryxAfrica.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1135, 63, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bcf5a15f980a490c912ad7aa864bfdc4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "db74decc95934a84b7ab7507b92bee5b", async() => {
                 BeginContext(1188, 6, true);
                 WriteLiteral("Delete");
                 EndContext();
